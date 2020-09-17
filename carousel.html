@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <style>
+            
+        </style>
+
+    </head>
+    <body>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item card">
+                <div class="img-anjo">
+                    <picture>
+                        <source srcset="img/ava1.webp" type="image/webp" />
+                        <source srcset="img/ava1.jpeg" type="image/jpeg" />
+                        <img src="img/ava1.jpeg" />
+                    </picture>
+                </div>
+                <div class="img-star">
+                    <picture>
+                        <source srcset="img/stars.webp" type="image/webp" />
+                        <source srcset="img/stars.png" type="image/png" />
+                        <img src="img/stars.png" />
+                    </picture>
+                </div>
+                <p>
+                   Foi ótima, me ajudou bastante. Estou conseguindo ficar mais tranquila. 
+                </p>
+            </div>
+            <div class="item card1">
+                <div class="img-anjo">
+                    <picture>
+                        <source srcset="img/ava2.webp" type="image/webp" />
+                        <source srcset="img/ava2.jpeg" type="image/jpeg" />
+                        <img src="img/ava2.jpeg" />
+                    </picture>
+                </div>
+                <div class="img-star">
+                    <picture>
+                        <source srcset="img/stars.webp" type="image/webp" />
+                        <source srcset="img/stars.png" type="image/png" />
+                        <img src="img/stars.png" />
+                    </picture>
+                </div>
+                <p>
+                   Foi ótima, me ajudou bastante. Estou conseguindo ficar mais tranquila. 
+                </p>
+            </div>
+            <div class="item card2">
+                <div class="img-anjo">
+                    <picture>
+                        <source srcset="img/aparecida-m.webp" type="image/webp" />
+                        <source srcset="img/aparecida-m.jpg" type="image/jpg" />
+                        <img src="img/aparecida-m.jpg" />
+                    </picture>
+                </div>
+                <div class="img-star">
+                    <picture>
+                        <source srcset="img/stars.webp" type="image/webp" />
+                        <source srcset="img/stars.png" type="image/png" />
+                        <img src="img/stars.png" />
+                    </picture>
+                </div>
+                <p>
+                   Foi ótima, me ajudou bastante. Estou conseguindo ficar mais tranquila. 
+                </p>
+            </div>
+            <div class="item card3">
+                <div class="img-anjo">
+                    <picture>
+                        <source srcset="img/antonio-m.webp" type="image/webp" />
+                        <source srcset="img/antonio-m.jpg" type="image/jpg" />
+                        <img src="img/antonio-m.jpg" />
+                    </picture>
+                </div>
+                <div class="img-star">
+                    <picture>
+                        <source srcset="img/stars.webp" type="image/webp" />
+                        <source srcset="img/stars.png" type="image/png" />
+                        <img src="img/stars.png" />
+                    </picture>
+                </div>
+                <p>
+                   Foi ótima, me ajudou bastante. Estou conseguindo ficar mais tranquila. 
+                </p>
+            </div>
+        </div>    
+        <script src="js/jquery3.5.1.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function() {
+    var owl = $("#owl-demo");
+    owl.owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 3000,
+        loop: true,
+        margin: 30,
+        nav: true,
+        items : 7,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:4,
+                nav:true
+            },
+            600:{
+                items:6,
+                nav:true
+            },
+            1000: {
+                items:7,
+                nav:true
+                
+            }
+        }
+        
+    });
+    
+  });
+        </script>
+    </body>
+</html>
